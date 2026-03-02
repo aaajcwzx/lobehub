@@ -3,7 +3,7 @@
   "crons": [
     {
       "path": "/api/agent/gateway/discord",
-      "schedule": "*/9 * * * *"
+      "schedule": "0 3 * * *"
     }
   ],
   "installCommand": "npx pnpm@10.26.2 install",
